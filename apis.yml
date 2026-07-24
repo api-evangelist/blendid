@@ -1,8 +1,14 @@
 aid: blendid
 name: Blendid
-description: 'Blendid is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Food & Agritech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Blendid operates fully autonomous robotic smoothie kiosks that prepare
+  chef-created blended beverages from real whole fruits, vegetables, seeds, nuts, and
+  juice with no artificial flavors or added sugar. Each kiosk uses AI and robotics
+  to run without on-site staff, taking mobile-app orders with customization and payment,
+  producing up to eight simultaneous drinks and roughly thirty per hour. Blendid deploys
+  its Blendid M2 platform into retail, colleges and universities, health clubs, and
+  hospitals as a low-labor, low-capex, 24/7 automated food-service offering. It is
+  tracked in the API Evangelist network as a portfolio company of Partech in the Food
+  & Agritech sector; the company publishes no public developer API at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/blendid/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,29 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://static.wixstatic.com/media/c3fd07_f653783b032e4c36be640f5bf2bb3dd1~mv2.png
 tags:
 - Company
 - Food & Agritech
+- Robotics
+- Automation
+- Food Service
+- Artificial Intelligence
+- Kiosk
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/blendid-domain-security.yml
 - type: Website
   url: https://www.blendid.com/
+- type: PrivacyPolicy
+  url: https://www.blendid.com/privacy-policy
+- type: Support
+  url: https://www.blendid.com/contact
+- type: HelpCenter
+  url: https://www.blendid.com/faq
+- type: Careers
+  url: https://www.blendid.com/careers
+- type: Locations
+  url: https://www.blendid.com/locations
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
